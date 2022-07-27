@@ -1,0 +1,362 @@
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    min-width: 375px;
+    height: 100vh;
+    z-index: 1;
+    background-image: url(./images/mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/* Mobile version */
+/* Navbar */
+.mobile-menu {
+    height: 100%;
+   
+}
+
+.mobile-menu .humburger-icon {
+    display: flex;
+    width: 6%;
+    padding: 5px;
+    font-size: 46px;
+    margin-left: 4%;
+}
+
+.humburger-icon .fa-bars {
+    margin-top: 10px;
+    color: #272a31;
+}
+
+.main-navbar {
+    display: none;
+}
+
+/* Intro section */
+
+.landing-page {
+    margin-top: 10px;
+    height: 100%;
+    margin-bottom: -50px;
+}
+
+.webinar-intro {
+    font-family: 'Lato', sans-serif;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: 700;
+    color: #ec5242;
+    padding-top: 80px;
+    margin-left: 20px;
+    width: 100%;
+    gap: 20px;
+
+}
+
+.intro h1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+.webinar-description {
+    color: #272a31;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border: 4px solid #fff;
+    font-size: 15px;
+    margin-left: 20px;
+    padding-left: 10px;
+    line-height: 20px;
+    width: 92%;
+    height: 90px;
+}
+
+.date-location {
+    color: #272a31;
+    margin-left: 20px;
+    padding: 15px;
+}
+
+.date-location h2 {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.date-location p {
+    font-size: 15px;
+}
+
+.main-program {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: black;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.main-program h2 {
+    padding-top: 10px;
+    padding-bottom: -10px;
+    font-weight: 800;
+    color: #ededee;
+}
+
+.main-program .heading-1-title-underline {
+    width: 20%;
+    border: 2px solid #ec5242;
+    margin-top: -10px;
+}
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    padding-top: 20px;
+    width: 90%;
+    height: 500px;
+    box-shadow: 0 0 8px lightblue;
+    background-color: #272a31;
+}
+
+.activities img {
+    width: 50%;
+    height: 200px;
+    margin-bottom: 60px;
+}
+
+.activities h4 {
+    color: #ec5242;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.activity-description {
+    width: 70%;
+    text-align: left;
+}
+
+.register-btn {
+    padding: 1%;
+    margin: 5%;
+  }
+  
+  .register-btn > button {
+    width: 100%;
+    padding: 30px 54px;
+    font-size: medium;
+    font-weight: 700;
+    color: #fff;
+    background-color: #ec5242;
+    border: none;
+  }
+  
+  .register-btn > button:hover {
+    border: 1px solid #d8cd30;
+  }
+
+.speaker-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.heading-2-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.heading-2 {
+    color: #1f1817;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.heading-2-title-underline {
+    width: 40%;
+    border: 2px solid #ec5242;
+    margin-top: -10px;
+}
+
+.speaker-section img {
+    width: 60%;
+    height: 200px;
+    margin-bottom: 60px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #272a31;
+    width: 100%;
+    height: 50%;
+    gap: 15px;
+}
+
+.footer-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+footer h3 {
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 15px;
+    color: #ededee;
+    padding-bottom: 20px;
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    gap: 15px;
+}
+
+.last-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding-inline: 100px;
+    gap: -10px;
+}
+
+.logo-bottom {
+    width: 50%;
+}
+
+.website-logo {
+    width: 50%;
+    height: 50px;
+    border-radius: 5%;
+}
+
+.trademark-text {
+    width: 50%;
+    height: 40px;
+    line-height: 15px;
+    color: #1f1817;
+    font-size: small;
+}
+
+/* Desktop version */
+@media (min-width: 768px) {
+    body {
+        background-image: none;
+    }
+    .mobile-menu {
+        display: none;
+    }
+
+    .main-navbar {
+        display: block;
+    }
+
+    .top-bar {
+        display: flex;
+        justify-content: right;
+        background: #272a31;
+        height: 40px;
+        align-items: center; 
+        padding-inline: 100px;   
+        gap: 15px;
+    }
+
+    .top-bar a {
+        list-style: none;
+        text-decoration: none;
+        color: rgb(193, 186, 186);
+        font-weight: 600;
+    }
+
+    .menu-items {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .website-logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .menu-items a {
+        list-style: none;
+        text-decoration: none;
+        color: rgb(58, 55, 55);
+        font-weight: 600;
+    }
+
+    .menu-items #red-border {
+        border: 4px solid #ff0000;
+        padding: 10px;
+    }
+
+    .main-bar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+    }
+
+    .landing-page {
+        height: 100%;
+        background-image: url(./images/desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Lato', sans-serif;
+        font-size: 35px;
+        font-weight: 800;
+        color: #ec5242;
+        padding-top: 100px;
+        margin-left: 110px;
+        width: 60%;
+        gap: 30px;
+
+    }
+}
