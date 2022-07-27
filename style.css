@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     min-height: 100%;
+    /* background: #f2f2f6; */
 }
 
 *,
@@ -22,7 +23,7 @@ body {
     height: 100vh;
     z-index: 1;
     background-image: url(./images/mobile.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
     overflow-x: hidden;
 }
@@ -37,9 +38,8 @@ body {
 .mobile-menu .humburger-icon {
     display: flex;
     width: 6%;
-    padding: 5px;
+    padding-left: 16px;
     font-size: 46px;
-    margin-left: 4%;
 }
 
 .humburger-icon .fa-bars {
@@ -55,8 +55,9 @@ body {
 
 .landing-page {
     margin-top: 10px;
+    margin-bottom: -200px;
+    padding-inline: 16px;
     height: 100%;
-    margin-bottom: -50px;
 }
 
 .webinar-intro {
@@ -70,14 +71,13 @@ body {
     font-weight: 700;
     color: #ec5242;
     padding-top: 80px;
-    margin-left: 20px;
     width: 100%;
     gap: 20px;
 
 }
 
 .intro h1 {
-    font-size: 40px;
+    font-size: 37px;
     font-weight: 900;
     line-height: 50px;
 }
@@ -87,17 +87,16 @@ body {
     margin-top: 20px;
     margin-bottom: 60px;
     border: 4px solid #fff;
-    font-size: 15px;
-    margin-left: 20px;
-    padding-left: 10px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    padding-inline: 10px;
     line-height: 20px;
-    width: 92%;
-    height: 90px;
+    width: 97%;
+    height: 100%;
 }
 
 .date-location {
     color: #272a31;
-    margin-left: 20px;
     padding: 15px;
 }
 
@@ -108,6 +107,10 @@ body {
 
 .date-location p {
     font-size: 15px;
+}
+
+.main-program-container {
+    margin-top: 200px;
 }
 
 .main-program {
@@ -131,7 +134,7 @@ body {
 
 .main-program .heading-1-title-underline {
     width: 20%;
-    border: 2px solid #ec5242;
+    border-bottom: 2px solid #ec5242;
     margin-top: -10px;
 }
 
@@ -222,9 +225,10 @@ footer {
     flex-direction: column;
     align-items: center;
     background: #272a31;
+    margin-bottom: -25px;
     width: 100%;
     height: 50%;
-    gap: 15px;
+    gap: 2px;
 }
 
 .footer-title {
@@ -255,13 +259,16 @@ footer h3 {
     justify-content: center;
     align-items: center;
     margin-top: 25px;
-    padding-inline: 100px;
-    gap: -10px;
+    padding-inline: 87px;
+    background: #fff;
+    padding-top: 24px;
+    padding-bottom: 30px;
+    gap: 15px;
 }
 
-.logo-bottom {
+/* .logo-bottom {
     width: 50%;
-}
+} */
 
 .website-logo {
     width: 50%;
@@ -270,11 +277,126 @@ footer h3 {
 }
 
 .trademark-text {
-    width: 50%;
+    width: 90%;
     height: 40px;
     line-height: 15px;
     color: #1f1817;
     font-size: small;
+}
+
+/* About page */
+.more-text-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-intro {
+    text-align: center;
+}
+
+.webinar-speech {
+    padding-inline: 16px;
+    margin-bottom: 50px;
+}
+.about-webinar-description {
+    font-family: 'Lato', sans-serif;
+    color: #272a31;
+    font-size: medium;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-align: center;
+    background: #fff;
+    padding-inline: 15px;
+}
+
+.contact-us {
+    color: #272a31;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 35px;
+    line-height: 20px;
+    height: 100%;
+    width: 92%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.logo-intro {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+
+.logo-show-off {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.logo-show-off img {
+    width: 30%;
+    height: 5%;
+    border-radius: 5px;
+}
+
+.past-webinars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.past-webinars-heading {
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.past-webinar-pics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.past-webinar-pics img {
+    width: 90%;
+    height: 90%;
+}
+
+.about-footer {
+    margin-top: 10px;
+}
+
+.microverse-logo {
+    width: 15%;
+    height: 30px;
+}
+
+.mozilla {
+    color: #5e5e78;
+    font-size: 20px;
+}
+
+.google {
+    color: #a1a404fb;
+    font-size: 20px;
+}
+
+.duf-bog {
+    color: #eff1dbd3;
+}
+
+.comp-name {
+    width: 80%;
+    height: 40px;
+}
+
+.logo-bottom .logo {
+    height: 50px;
 }
 
 /* Desktop version */
