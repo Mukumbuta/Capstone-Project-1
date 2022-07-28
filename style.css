@@ -42,12 +42,23 @@ body {
     font-size: 46px;
 }
 
-.humburger-icon .fa-bars {
+.humburger-icon .fa-solid {
     margin-top: 10px;
     color: #272a31;
 }
 
 .main-navbar {
+    display: none;
+}
+
+
+
+/* Mobile menu */
+.humburger-icon {
+    display: block;
+}
+
+.cross-icon {
     display: none;
 }
 
@@ -109,8 +120,19 @@ body {
     font-size: 15px;
 }
 
+.main-prog-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
 .main-program-container {
     margin-top: 200px;
+    background: black;
 }
 
 .main-program {
@@ -120,7 +142,7 @@ body {
     align-items: center;
     width: 100%;
     height: 100%;
-    background: black;
+    
     padding-bottom: 20px;
     gap: 20px;
 }
@@ -132,8 +154,8 @@ body {
     color: #ededee;
 }
 
-.main-program .heading-1-title-underline {
-    width: 20%;
+.heading-2-title-underline {
+    width: 10%;
     border-bottom: 2px solid #ec5242;
     margin-top: -10px;
 }
@@ -146,8 +168,11 @@ body {
     padding-top: 20px;
     width: 90%;
     height: 500px;
-    box-shadow: 0 0 8px lightblue;
     background-color: #272a31;
+}
+
+.activities:hover {
+    box-shadow: 0 0 8px lightblue;
 }
 
 .activities img {
@@ -399,11 +424,14 @@ footer h3 {
     height: 50px;
 }
 
+/* Mobile menu */
+
 /* Desktop version */
 @media (min-width: 768px) {
     body {
         background-image: none;
     }
+    
     .mobile-menu {
         display: none;
     }
@@ -418,7 +446,7 @@ footer h3 {
         background: #272a31;
         height: 40px;
         align-items: center; 
-        padding-inline: 100px;   
+        padding-inline: 120px;   
         gap: 15px;
     }
 
@@ -430,10 +458,11 @@ footer h3 {
     }
 
     .menu-items {
+        margin-left: 200px;
         display: flex;
         justify-content: right;
         align-items: center;
-        gap: 80px;
+        gap: 50px;
     }
 
     .website-logo {
@@ -447,6 +476,7 @@ footer h3 {
         text-decoration: none;
         color: rgb(58, 55, 55);
         font-weight: 600;
+        font-size: 18px;
     }
 
     .menu-items #red-border {
@@ -458,14 +488,20 @@ footer h3 {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 70px;
+        height: 50px;
+        margin-top: 10px;
     }
 
+    /* Home page */
     .landing-page {
         height: 100%;
         background-image: url(./images/desktop.png);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    .webinar-intro {
+        padding-inline: 100px;
     }
 
     .intro {
@@ -476,9 +512,98 @@ footer h3 {
         font-weight: 800;
         color: #ec5242;
         padding-top: 100px;
-        margin-left: 110px;
-        width: 60%;
+        
         gap: 30px;
 
     }
+
+    .intro h1 {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .intro h3 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .webinar-description {
+        width: 50%;
+        font-weight: 600;
+        font-size: small;
+        border: none;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .date-location h2 {
+        font-size: 35px;
+    }
+
+    .main-program-container {
+        margin-top: 200px;
+        background: black;
+        margin-top: -3px;
+        height: 100%;
+    }
+
+    .main-prog-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .heading-2-title-underline {
+        width: 10%;
+    }
+
+    .main-program {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding-top: 20px;
+        padding-left: 24px;
+        gap: -20px;
+    }
+
+    .activities {
+        height: 300px;
+        box-shadow: 0 0 8px lightblue;
+    }
+
+    .activities {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Lato', sans-serif;
+        padding-top: 20px;
+        width: 90%;
+        height: 300px;
+        background-color: #272a31;
+    }
+    
+    .activities img {
+        width: 50%;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+    
+    .activities h4 {
+        color: #ec5242;
+        font-size: 16px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+    
+    .activity-description {
+        width: 70%;
+        text-align: center;
+        font-size: small;
+        line-height: 15px;
+    }
+
+    /* About page */
+    
 }
