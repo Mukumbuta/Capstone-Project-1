@@ -13,10 +13,13 @@
 
 To get a local copy up and running follow these simple example steps.
 
+## Live demo
+- Link: https://www.loom.com/share/5a6ac145853c406785fd851e91e9fa93
+
 
 ## Deployment
 - Deployed using GitHub Pages
-- Link: 
+- Link: https://mukumbuta.github.io/Capstone-Project-1/
 
 ## Authors
 
