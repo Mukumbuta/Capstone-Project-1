@@ -14,7 +14,7 @@
 To get a local copy up and running follow these simple example steps.
 
 ## Live demo
-- Link: https://www.loom.com/share/5a6ac145853c406785fd851e91e9fa93
+- Link: https://www.loom.com/share/cb0544f0fc5b4234ae3e881f452559a0
 
 
 ## Deployment

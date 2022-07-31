@@ -247,8 +247,8 @@ body {
   margin: 5%;
 }
 
-.register-btn > button {
-  width: 100%;
+.register-btn {
+  width: 75%;
   padding: 30px 54px;
   font-size: medium;
   font-weight: 700;
@@ -257,7 +257,7 @@ body {
   border: none;
 }
 
-.register-btn > button:hover {
+.register-btn:hover {
   border: 1px solid #d8cd30;
 }
 
