@@ -243,11 +243,6 @@ body {
 }
 
 .register-btn {
-  padding: 1%;
-  margin: 5%;
-}
-
-.register-btn {
   width: 75%;
   padding: 30px 54px;
   font-size: medium;
@@ -255,6 +250,7 @@ body {
   color: #fff;
   background-color: #ec5242;
   border: none;
+  margin: 5%;
 }
 
 .register-btn:hover {

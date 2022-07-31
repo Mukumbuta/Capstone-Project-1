@@ -41,9 +41,7 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Hat tip to @Kibirige-john 
-- GitHub: [@githubhandle](https://github.com/John-Kibirige)
+- Hat tip to Cindy Shin the author of the original design.
 
 
 ## 📝 License
